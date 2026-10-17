@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #060a13;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: #061327;
+  background: #49dcff;
+}
